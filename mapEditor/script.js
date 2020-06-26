@@ -60,7 +60,7 @@ $('#canv').on('click', function(e) {
 		nearLine = [];
 		}
 	}
-	console.log(gameMap);
+	console.log(JSON.stringify(gameMap));
 });
 
 function getCircleCoordinates(cellWidth, cellHeight, x, y) {
@@ -170,7 +170,7 @@ function draw(map) {
 	gameMap = map;
 }
 
-draw(tempMap);
+//draw(tempMap);
 
 class Cell {
 	constructor(id, x , y, color) {

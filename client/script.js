@@ -295,7 +295,7 @@ function draw(map) {
 			drawCircle(ctx, coordinatesFirst[0], coordinatesFirst[1], radius, obj.count, obj.type, obj.isChecked);
 		}
 		});
-		drawCircle(ctx, coordinatesSecond[0], coordinatesSecond[1], radius, item.count, item.typem, item.isChecked);
+		drawCircle(ctx, coordinatesSecond[0], coordinatesSecond[1], radius, item.count, item.type, item.isChecked);
 	});
 	gameMap = map;
 }
